@@ -151,6 +151,10 @@ body{
     background-image: url('../img/2.webp');
 }
 
+.item3{
+    background-image: url('../img/3.webp');
+}
+
 .heart{
     position: absolute;
     top: 0.5rem;
