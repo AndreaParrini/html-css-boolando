@@ -76,6 +76,12 @@ body{
     flex-wrap: wrap;
 }
 
+.container{
+    width: 80%;
+    margin: auto;
+    max-width: 1152px;
+}
+
 .d-flex{
     display: flex;
 }
@@ -97,23 +103,10 @@ body{
     top: 0;
     left: 0;
     width: 100%;
+    box-shadow: 1px 2px 5px lightslategray;
 }
 
-.container{
-    width: 80%;
-    margin: auto;
-    max-width: 1152px;
-}
-
-#site_main{
-    margin-top: 6rem;
-}
-
-#site_footer{
-    background-color: var(--booleando-footer);
-}
-
-/* .logo img{
+.logo img{
     height: 2rem;
 }
 
@@ -128,4 +121,18 @@ body{
 
 .type a{
     padding-right: 0.5rem;
-} */
+}
+
+
+/* Main */
+
+#site_main{
+    margin-top: 6rem;
+}
+
+/* Footer */
+
+#site_footer{
+    background-color: var(--booleando-footer);
+}
+
