@@ -1,5 +1,131 @@
+/* Debug */
+
+.debug .container{
+    background-color: aqua;
+    height: 50px;
+}
+
+.debug .type{
+    background-color: yellow;
+    height: 40px;
+    width: 20%;
+}
+
+.debug .logo{
+    background-color: orchid;
+    height: 40px;
+    width: 60%;
+}
+
+.debug .tool{
+    background-color: indianred;
+    height: 40px;
+    width: 20%;
+}
+
+.debug #site_main .container{
+    background-color: blue;
+    height: 1000px;
+}
+
+.debug .col-32{
+    height: 30rem;
+    background-color: bisque;
+}
+
+.debug .boolean{
+    background-color: darkseagreen;
+    width: 30%;
+    height: 30px;
+}
+.debug .social{
+    background-color: fuchsia;
+    width: 30%;
+    height: 30px;
+}
+
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+:root {
+    --booleando-header: #ff6900;
+    --booleando-red: #ff0000;
+    --booleando-green: #008000;
+    --booleando-footer: #1a1a1a;
+    --booleando-black: black;
+    --booleando-white: white;
+}
+
+/* Utility */
+
+
+.col-32{
+    width: 32%;
+    margin-bottom: 2rem;
+} 
+
+.flex_wrap{
+    flex-wrap: wrap;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.space_between{
+    justify-content: space-between;
+}
+
+.align_items_center{
+    align-items: center;
+}
+
+/* Header */
+
+#site_header{
+    background-color: #ff6900;
+    padding: 0.5rem 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    max-width: 1152px;
+}
+
+#site_main{
+    margin-top: 6rem;
+}
+
+#site_footer{
+    background-color: var(--booleando-footer);
+}
+
+/* .logo img{
+    height: 2rem;
+}
+
+#site_header a{
+    color: var(--booleando-white);
+    text-decoration: none;
+}
+
+.tool a{
+    padding-left: 0.5rem;
+}
+
+.type a{
+    padding-right: 0.5rem;
+} */
