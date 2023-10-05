@@ -147,6 +147,10 @@ body{
     background-image: url('../img/1.webp');
 }
 
+.item2{
+    background-image: url('../img/2.webp');
+}
+
 .heart{
     position: absolute;
     top: 0.5rem;
@@ -168,10 +172,10 @@ body{
     font-size: small;
     background-color: var(--booleando-red);
     color: var(--booleando-white);
+    margin-right: 0.25rem;
 }
 
 .sostenibilità{
-    margin-left: 0.25rem;
     padding: 0.25rem 0.5rem;
     font-size: small;
     background-color: var(--booleando-green);
@@ -190,13 +194,19 @@ body{
     text-decoration:line-through;
 }
 
+[class^='item']:hover .heart{    
+    color: var(--booleando-red);
+}
 /* Footer */
 
 #site_footer{
     background-color: var(--booleando-footer);
 }
 
-[class^='item']:hover .heart{    
-    color: var(--booleando-red);
-}
+
+
+/* .item1:hover .item1{    
+    background-image: none;
+} */
+
 
