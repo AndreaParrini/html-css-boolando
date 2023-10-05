@@ -94,6 +94,16 @@ body{
     align-items: center;
 }
 
+.pos_relative{
+    position: relative;
+}
+
+[class^='item']{
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+}
+
 /* Header */
 
 #site_header{
@@ -123,6 +133,9 @@ body{
     padding-right: 0.5rem;
 }
 
+#site_main h3{
+    text-transform: uppercase;
+}
 
 /* Main */
 
@@ -130,9 +143,60 @@ body{
     margin-top: 6rem;
 }
 
+.item1{
+    background-image: url('../img/1.webp');
+}
+
+.heart{
+    position: absolute;
+    top: 0.5rem;
+    right: 0;
+    height: 2rem;
+    width: 2rem;
+    text-align: center;
+    background-color: var(--booleando-white);
+    line-height: 2rem;
+    vertical-align: middle;
+}
+.info_item{
+    position: absolute;
+    bottom: 2rem;
+    left: 0;
+}
+.discount{
+    padding: 0.25rem 0.5rem;
+    font-size: small;
+    background-color: var(--booleando-red);
+    color: var(--booleando-white);
+}
+
+.sostenibilità{
+    margin-left: 0.25rem;
+    padding: 0.25rem 0.5rem;
+    font-size: small;
+    background-color: var(--booleando-green);
+    color: var(--booleando-white);
+}
+
+.brand{
+    font-weight: 200;
+}
+
+.discount_price{
+    color: var(--booleando-red);
+}
+
+.full_price{
+    text-decoration:line-through;
+}
+
 /* Footer */
 
 #site_footer{
     background-color: var(--booleando-footer);
+}
+
+[class^='item']:hover .heart{    
+    color: var(--booleando-red);
 }
 
