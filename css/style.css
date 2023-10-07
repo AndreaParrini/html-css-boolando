@@ -218,12 +218,27 @@ body{
 
 #site_footer{
     background-color: var(--booleando-footer);
+    border-bottom: 2px solid white;
+    color: var(--booleando-white);
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+#site_footer .boolean li{
+    list-style: none;
+    margin-right: 1rem;
+    margin-top: 0.5rem;
+}
+
+#site_footer .boolean a{
+    text-decoration: none;
+    color: var(--booleando-white);
 }
 
 
-
-/* .item1:hover .item1{    
+/* 
+.item1:hover .item1{    
     background-image: none;
-} */
-
+}
+ */
 
