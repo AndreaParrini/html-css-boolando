@@ -249,6 +249,7 @@ body{
     list-style: none;
     margin-right: 1rem;
     margin-top: 0.5rem;
+    font-size: small;
 }
 
 #site_footer .boolean a{
@@ -256,9 +257,15 @@ body{
     color: var(--booleando-white);
 }
 
-.social li{
+#site_footer .social li{
     background-color: var(--booleando-white);
-    padding: 1px;
+    padding: 0.5px 1.5px;
+    list-style: none;
+    margin-right: 1rem;
+    margin-top: 0.5rem;
+    border-radius: 0.2rem;
+    height: 20px;
+    width: 20px;
     text-align: center;
 }
 
